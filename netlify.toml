@@ -1,6 +1,6 @@
 [build]
-  command = "npm run build && npm run server"  # Build and run JSON server after build
-  publish = "build"  # Directory to deploy
+   command = "npm run build"
+  publish = "build"  
 
 [dev]
   command = "npm start"
